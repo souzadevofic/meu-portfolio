@@ -132,6 +132,9 @@ header.scrolled {
 }
 
 .figura-projeto {
+    max-width: 100%; /* A imagem nunca fica maior que seu contêiner */
+    height: auto;    /* A altura se ajusta proporcionalmente à largura */
+    display: block;
     border-radius: 10px;
     height: 200px;
 }
@@ -258,10 +261,6 @@ header.scrolled {
         width: 310px;
         height: 310px;
         
-    }
-
-    .figura-projeto {
-        width: 390px;
     }
 
 }
