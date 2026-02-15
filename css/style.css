@@ -47,6 +47,7 @@ header.scrolled {
 .text-principal h1 {
     color: #5d3bcc;
     width: 430px;
+    
 }
 
 .text-principal h3 {
@@ -112,10 +113,39 @@ header.scrolled {
     box-shadow: #433572;
 }
 
+.card-body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-body p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .card-projeto:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px #433572;
 }
+
+.figura-projeto {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.figura-github {
+    
+    width: 400px;
+}
+
+.icone-github {
+    height: 60px;
+}
+
+
 
 /* HABILIDADES */
 .habilidades-grid {
@@ -192,4 +222,42 @@ header.scrolled {
         transform: scale(1);
         opacity: 1;
     }
+}
+
+@media (max-width: 768px) {
+    
+    .sobre-mim {
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+
+    .text-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+
+    .text-principal h3 {
+        text-align: justify;
+        width: 300px;
+        font-size: 1.2rem;
+        
+    }
+
+    .imagem-eu img {
+        height: 18rem;
+        
+    }
+
+    .imagem-eu {
+        width: 310px;
+        height: 310px;
+        
+    }
+
 }
