@@ -39,7 +39,7 @@ header.scrolled {
     font-weight: bold;
     width: 100%;                 
     height: 90vh; 
-    gap: 3em; 
+    gap: 2em; 
     display: flex;    
     align-items: center;    
     justify-content: center;   
@@ -64,6 +64,26 @@ header.scrolled {
     font-size: clamp(1rem, 1.6vw, 2rem); 
     font-style: italic;
     text-align: justify;
+}
+
+.btn-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2em;
+    height: 2.5em;
+    width: 50%;
+    background-color: #5d3bcc;
+}
+
+.icone-cv {
+    height: 1.5em;
 }
 
 .imagem-eu {
@@ -235,6 +255,17 @@ header.scrolled {
         transform: scale(1);
         opacity: 1;
     }
+}
+
+/* CONTATO */
+
+.container-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    
 }
 
 @media (max-width: 768px) {
